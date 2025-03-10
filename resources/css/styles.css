@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     /* background: linear-gradient(to bottom right, lightgray, #797979); */
-    background: url('Animated_Shape.svg') center fixed;
+    background: url('../Animated_Shape.svg') center fixed;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
