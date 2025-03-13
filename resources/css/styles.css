@@ -7,6 +7,14 @@ body {
     scroll-behavior: smooth;
 }
 
+.footer {
+    background-color: #343a40; /* Color oscuro */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+}
+
 header {
     background-color: #b10303;
     padding: 10px 0;
