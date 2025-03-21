@@ -33,7 +33,7 @@
             <div class="contenido text-center">
                 <h1>TÍTULO PORTAFOLIO:
                     <br>
-                    El baúl de los inges
+                    El baúl de los Ings
                 </h1>
         </section>
 
@@ -57,7 +57,7 @@
                     Valenzuela Aguirre Miguel Javier
                 </p>
                 <hr>
-                <p>Santa Ana, 13 de Marzo de 2025 <br>
+                <p>Santa Ana, <span id="current-date"></span></p>
             </div>
         </section>
 
@@ -148,6 +148,25 @@
         });
     });
 
+</script>
+<script>
+    // Obtener la fecha actual
+    const today = new Date();
+    const day = today.getDate().toString().padStart(2, '0'); 
+    const year = today.getFullYear();
+
+    const months = [
+        'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
+        'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
+    ];
+
+    const month = months[today.getMonth()];  
+
+    // Crear el formato de la fecha
+    const formattedDate = `${day} de ${month} de ${year}`;
+
+    // Insertar la fecha en el elemento con id "current-date"
+    document.getElementById('current-date').textContent = formattedDate;
 </script>
 
 </html>
