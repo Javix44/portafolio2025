@@ -78,6 +78,10 @@
                     <li class="mb-3"><a class="nav-link fs-4" href="#preart">Presentación sobre El Artículo de Opinión
                             <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </li>
+                    <li class="mb-3"><a class="nav-link fs-4" href="#infoneo">Infografía sobre Neologismos
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </li>
+
                 </ul>
             </div>
         </section>
@@ -138,6 +142,15 @@
             </div>
             <span class="numero-pagina">4</span>
         </section>
+        <div id="infoneo" style="margin-bottom: 100px;"></div>
+        <section class="pagina">
+            <div class="contenido text-center">
+                <h1>Infografía sobre Neologismos</h1>
+                <img style="border:solid 1px;" src="resources/Infografia_Neologismos.png" alt="Poster" width="100%"
+                    height="50%">
+            </div>
+            <span class="numero-pagina">5</span>
+        </section>
     </main>
     <footer class="footer">
         <p>&copy; 2025 - Portafolio de Vagos a Expertos | Todos los derechos reservados
@@ -165,7 +178,7 @@
 <script>
     // Obtener la fecha actual
     const today = new Date();
-    const day = today.getDate().toString().padStart(2, '0'); 
+    const day = today.getDate().toString().padStart(2, '0');
     const year = today.getFullYear();
 
     const months = [
@@ -173,7 +186,7 @@
         'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
     ];
 
-    const month = months[today.getMonth()];  
+    const month = months[today.getMonth()];
 
     // Crear el formato de la fecha
     const formattedDate = `${day} de ${month} de ${year}`;
