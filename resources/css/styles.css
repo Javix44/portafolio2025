@@ -146,8 +146,3 @@ main {
     0%, 100% { border-color: transparent }
     50% { border-color: #b10303 }
 }
-
-@keyframes finishCursor {
-    0% { border-color: #b10303; } 
-    100% { border-color: white; } /* Cambiar a blanco cuando termine de escribir */
-}
